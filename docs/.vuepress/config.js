@@ -4,7 +4,7 @@
  * @LastEditors: moxiang
  */
 module.exports = {
-  title: "微微记账",
+  title: "微微习惯",
   dest: "./public",
   themeConfig: {
     navbar: true,
