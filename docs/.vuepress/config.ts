@@ -6,17 +6,37 @@ export default defineUserConfig({
 	description: "微微习惯应用文档",
 	dest: "./public",
 	theme: defaultTheme({
-		repo: "https://github.com/mox1206/habit_doc.git",
-		sidebar: [
-			'/',
-			'problem',
-			'update',
-			'home',
-			'today',
-			'all_habit',
-			'pomoboro',
-			"user_agreement",
-          	"privacy_policy",
-		]
+		logo: "/assets/images/icon.png",
+		repo: "mox1206/habit_doc",
+		lastUpdatedText: '上次更新',
+		contributors: false,
+		sidebar: [{
+			text: "微微习惯指南",
+			children: [
+				"/",
+				"/bases/problem",
+				"/bases/update",
+				"/habit/today",
+				"/habit/all_habit",
+				"/habit/pomoboro",
+				"/habit/type_mgr",
+				"/habit/accessibility",
+				"/habit/other",
+				"/bases/privacy_policy",
+				"/bases/user_agreement",
+			]
+		}]
+		
+		// [
+		// 	'/',
+		// 	'/problem',
+		// 	'/update',
+		// 	'/home',
+		// 	'/today',
+		// 	'/all_habit',
+		// 	'/pomoboro',
+		// 	"/user_agreement",
+        //   	"/privacy_policy",
+		// ]
 	})
 })
