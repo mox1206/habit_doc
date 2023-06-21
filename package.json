@@ -1,24 +1,16 @@
 {
   "name": "habit_doc",
   "version": "1.0.0",
-  "description": "",
+  "description": "habit mobile application docs",
   "main": "index.js",
+  "repository": "https://github.com/mox1206/habit_doc.git",
+  "author": "moxing1206@gmail.com",
+  "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mox1206/habit_doc.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mox1206/habit_doc/issues"
-  },
-  "homepage": "https://github.com/mox1206/habit_doc#readme",
   "devDependencies": {
-    "vuepress": "^1.9.8"
+    "vuepress": "^2.0.0-beta.63"
   }
 }
