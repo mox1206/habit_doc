@@ -19,7 +19,7 @@ module.exports = {
           'update',
           'home',
           {
-            title: "记账界面",
+            title: "今天",
             path: "/record",
             initialOpenGroupIndex: 0, // 可选的, 默认值是 0
             sidebarDepth: 1,    // 可选的, 默认值是 1
@@ -33,7 +33,7 @@ module.exports = {
           },
           "type_mgr",
           {
-            title: "资产管理",
+            title: "全部",
             path: "/assets",
             initialOpenGroupIndex: 0, // 可选的, 默认值是 0
             sidebarDepth: 1,    // 可选的, 默认值是 1
@@ -42,7 +42,17 @@ module.exports = {
               "/assets/"
             ]
           },
-          "mult_book",
+          { 
+            title: "番茄钟",
+            path: "/pomodoro",
+            initialOpenGroupIndex: 0,
+            sidebarDepth: 1,
+            collapsable: true,
+            children: [
+              "/pomodoro/",
+              "/pomodoro/time_stat"
+            ]
+          },
           "user_agreement",
           "privacy_policy"
         ]
