@@ -19,24 +19,12 @@ export default defineUserConfig({
 				"/habit/today",
 				"/habit/all_habit",
 				"/habit/pomoboro",
-				"/habit/type_mgr",
+				"/habit/main",
 				"/habit/accessibility",
 				"/habit/other",
 				"/bases/privacy_policy",
 				"/bases/user_agreement",
 			]
 		}]
-		
-		// [
-		// 	'/',
-		// 	'/problem',
-		// 	'/update',
-		// 	'/home',
-		// 	'/today',
-		// 	'/all_habit',
-		// 	'/pomoboro',
-		// 	"/user_agreement",
-        //   	"/privacy_policy",
-		// ]
 	})
 })
