@@ -1,0 +1,16 @@
+{
+  "name": "habit_doc",
+  "version": "1.0.0",
+  "description": "habit mobile application docs",
+  "main": "index.js",
+  "repository": "https://github.com/mox1206/habit_doc.git",
+  "author": "moxing1206@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.63"
+  }
+}
