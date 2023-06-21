@@ -20,26 +20,26 @@ module.exports = {
           'home',
           {
             title: "今天",
-            path: "/record",
+            path: "/today",
             initialOpenGroupIndex: 0, // 可选的, 默认值是 0
             sidebarDepth: 1,    // 可选的, 默认值是 1
             collapsable: true, // 可选的, 默认值是 true,
             children: [
-              "/record/",
-              "/record/transfer",
-              "/record/reimburse",
-              "/record/settings",
+              "/today/",
+              "/today/transfer",
+              "/today/reimburse",
+              "/today/settings",
             ]
           },
           "type_mgr",
           {
             title: "全部",
-            path: "/assets",
+            path: "/all",
             initialOpenGroupIndex: 0, // 可选的, 默认值是 0
             sidebarDepth: 1,    // 可选的, 默认值是 1
             collapsable: true, // 可选的, 默认值是 true,
             children: [
-              "/assets/"
+              "/all/"
             ]
           },
           { 
