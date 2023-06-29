@@ -8,7 +8,9 @@ export default defineUserConfig({
 	theme: defaultTheme({
 		logo: "/assets/images/icon.png",
 		repo: "mox1206/habit_doc",
+		docsDir: "docs",
 		lastUpdatedText: '上次更新',
+		editLinkText: "在Github上编辑",
 		contributors: false,
 		sidebar: [{
 			text: "微微习惯指南",
