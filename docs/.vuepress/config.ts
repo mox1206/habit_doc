@@ -11,6 +11,7 @@ export default defineUserConfig({
 		docsDir: "docs",
 		lastUpdatedText: '上次更新',
 		editLinkText: "在Github上编辑",
+		editLink: false,
 		contributors: false,
 		sidebar: [{
 			text: "微微习惯指南",
